@@ -1,0 +1,16 @@
+{
+    "name": "iknsa/helper-bundle",
+    "description": "A few helpers and utilities in php",
+    "type": "library",
+    "require": {
+        "php": "5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khalid Sookia",
+            "email": "khalidsookia@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
