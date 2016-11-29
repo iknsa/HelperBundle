@@ -12,5 +12,11 @@
             "email": "khalidsookia@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": { "IKNSA\\HelperBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
     "minimum-stability": "stable"
 }
