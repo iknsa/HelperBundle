@@ -17,7 +17,10 @@ class Canonicalizer
             return null;
         }
 
+        $string = trim($string);
+
         $encoding = mb_detect_encoding($string);
+
         $result = $encoding
             ? mb_convert_case($string, MB_CASE_LOWER, $encoding)
             : mb_convert_case($string, MB_CASE_LOWER);
