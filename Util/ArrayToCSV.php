@@ -86,12 +86,12 @@ class ArrayToCSV
             fputcsv($out, $value, $this->delimiter, $this->enclosure, $this->escape_char);
         }
 
-        $csv = ob_get_contents();
+        $content = ob_get_contents();
         ob_end_clean();
 
         fclose($out);
 
-        return $csv;
+        return $content;
     }
 
     /**
